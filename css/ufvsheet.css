@@ -1,0 +1,161 @@
+/*.............................. GENERAL .................................*/
+body{
+	/*background-color:#003865;	*/ /*Más resalto*/
+}
+
+
+.page{
+
+	width:980px;
+	margin: 0 auto;
+	/*background-color:#003865; azule clarito letras*/
+	background-color:#013660;
+}
+/*........................................................................*/
+
+/*............................... LOGIN ..................................*/
+.loginform{
+	padding:150px;
+	color:#ffffff;
+}
+/*........................................................................*/
+
+/*............................... PERFIL .................................*/
+/* Página de inicio del alumno */
+.alu-container
+{
+	margin-top:5px; /* No estoy seguro de esto */
+	height:480px;
+}
+
+.alu-leftvertical
+{
+	width:235px;
+	height:480px;
+	float:left;
+}
+
+.alu-leftvertical ul 
+{
+
+}
+
+.alu-leftvertical ul li
+{
+	height:70px;
+	width:225px;
+	margin:8px auto;
+	border-radius:15px;
+}
+
+.alu-leftvertical ul li a
+{
+	line-height:70px;
+	text-decoration:none;
+	margin-left:20px;
+	color:#ffffff;
+}
+
+.alu-leftvertical ul li:hover 
+{
+	cursor:pointer;
+	color:#013660;
+	background:#ffffff;
+}
+
+.alu-leftvertical ul li:hover a
+{
+	cursor:pointer;
+	color:#013660;
+	background:#ffffff;
+	font-weight:bold;
+	
+}
+
+.alu-leftvertical ul li a:hover
+{
+	cursor:pointer;
+	color:#013660;
+}
+
+.alu-centralpics
+{
+	width:740px;
+	height:480px;
+	float:right;
+}
+
+.alu-centralpics-row
+{
+	height:240px;
+	position:relative;	
+}
+
+.alu-pic
+{
+	height:240px;
+	width:370px;
+	float:left;
+}
+
+.alu-pic img
+{
+	height:230px;
+	width:360px;
+	padding:5px;
+}
+
+/*........................................................................*/
+
+/*.............................. HEADER ..................................*/
+/* Cabecera de la página del login*/
+.cabecera1{
+	height:100px;
+	line-height:100px;
+}
+
+.cabecera1 p{
+	margin-left:100px;
+	font-size:30px;
+	font-weight:bold;
+	color:#ffffff;
+	display:inline;
+}
+
+.cabecera1 img{
+	float:right;
+	height:100px;
+	width:100px;
+}
+/* Cabecera del perfil del alumno*/
+.cabecera2{
+	height:120px;
+}
+
+.fotoperfil{
+	height:120px;
+	width:120px;
+	background:orange;
+	float:left;
+}
+
+.fotoperfil img{
+	height:120px;
+	width:120px;
+}
+
+.barrabusqueda{
+	width:600px;
+	height:120px;
+	float:left;	
+	padding: 40px;
+}
+
+.cabecera2 img{
+	height:120px;
+	width:120px;
+	float:right;
+}
+
+
+/*........................................................................*/

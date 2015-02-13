@@ -3,7 +3,6 @@
 	include '../session/checksession.php'; 
 	$id = $_GET['id']; // Identificador de usuario
 	include '../session/checkid.php';
-	
 ?>
 
 <!DOCTYPE html>
